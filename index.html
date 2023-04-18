@@ -20,23 +20,26 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#home">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#context">Context</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link active" aria-current="page" href="#ES">Existing Software</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link active" aria-current="page" href="#EH">Existing Hardware</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link active" aria-current="page" href="#FI">Future Innovations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carousel">Carousel</a>
                         </li>
                     </ul>
                 </div>
@@ -48,14 +51,14 @@
               <div class="carousel-item active">
                 <img src="imgs/finance.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="animate__animated animate__zoomInDown animate__delay-1s b-font">Financial Services</h5>
+                    <h5 class="animate__animated animate__zoomInDown animate__delay-1s b-font" id="home">Financial Services</h5>
                 </div>
               </div>
             </div>
         </div>
         <!-- Context -->
         <div class="container-fluid dark">
-            <h1 class="center animate__animated animate__tada animate__delay-2s">Context</h1>
+            <h1 class="center animate__animated animate__tada animate__delay-2s" id="context">Context</h1>
         </div>
         <div class="container-fluid">
             <div class="container">
@@ -66,7 +69,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="animate__animated animate__pulse animate__infinite">Existing Software</h2>
+                        <h2 class="animate__animated animate__pulse animate__infinite" id="ES">Existing Software</h2>
                         <p><b>YNAB</b>: Good for paying off debts. It helps you keep track of how much you earned and when you earned your money. They make you spend money you earned at least 30 days ago and the average amount of time it takes for you to spend the money you earned.
                         <b>Cost:</b>34 day free trial, $14.99 a month,and $98.99 a year.</p>
                         <img class="img" src="imgs/ynab.png">
@@ -74,9 +77,10 @@
                         <img class="img" src="imgs/mint.jpeg">
                         <p><b>ACORNS</b>: Beginner friendly investing app that helps invest money you've spent by rounding.<br><b>Example:</b> You buy something for $12.50, they invest the $0.50 for you. <br><b>Cost:</b>$3 per month personal plan and $5 per month family plan.</br></p>
                         <img class="img" src="imgs/acorns.png">
+                        <h2 class="animate__animated animate__pulse animate__infinite" id="EH">Existing Hardware</h2>
                     </div>
                     <div class="col-md-6">
-                        <h2 class="animate__animated animate__pulse animate__infinite">Future Innovations</h2>
+                        <h2 class="animate__animated animate__pulse animate__infinite" id="FI">Future Innovations</h2>
                         <!-- Accordion -->
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
@@ -112,7 +116,7 @@
                         </div>
                         <!-- Carousel -->
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" id="carousel">
                                 <div class="carousel-item active">
                                     <img src="imgs/finance.webp" class="d-block w-100" alt="...">
                                 </div>
