@@ -25,3 +25,9 @@
 .rs {
     width: 110px
 }
+.small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
